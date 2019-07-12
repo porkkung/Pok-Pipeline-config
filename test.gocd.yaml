@@ -15,11 +15,3 @@ pipelines:
                     command: ls
                     arguments:
                       - .
-       - second-stage:
-          jobs:
-            list:
-              tasks:
-                - exec:
-                    command: ls
-                    arguments:
-                      - .
