@@ -12,4 +12,6 @@ pipelines:
             build:
               tasks:
                 - exec:
+                    command: gotham-todo/install.sh
+                - exec:
                     command: gotham-todo/build.sh
