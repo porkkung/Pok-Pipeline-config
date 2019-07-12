@@ -1,7 +1,7 @@
 format_version: 2
 pipelines:
   pipeline-name:
-    group: group-name
+    group: my-group-name
     materials:
       git-repo:
         git: https://github.com/gotham-learning/vue-gotham-todo.git
