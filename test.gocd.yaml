@@ -12,6 +12,4 @@ pipelines:
             list:
               tasks:
                 - exec:
-                    command: ls
-                    arguments:
-                      - .
+                    command: gotham-todo/build.sh
