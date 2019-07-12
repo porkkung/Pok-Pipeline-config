@@ -1,0 +1,17 @@
+format_version: 2
+pipelines:
+  pipeline-name:
+    group: group-name
+    materials:
+      git-repo:
+        git: https://github.com/gotham-learning/vue-gotham-todo.git
+        branch: master
+    stages:
+      - first-stage:
+          jobs:
+            list:
+              tasks:
+                - exec:
+                    command: ls
+                    arguments:
+                      - .
